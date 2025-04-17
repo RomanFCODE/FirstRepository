@@ -10,5 +10,5 @@ class File1
     {
         return $this->name;
     }
-public $name;
+public $name = '';
 }
