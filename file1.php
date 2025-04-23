@@ -3,7 +3,7 @@ class File1
 {
     public $surname = 'From branch main';
 
-    public $name = '';
+    public $name = 'qedefqef';
 
 
     public function setSurname(string $surname): void
