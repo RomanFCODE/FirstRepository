@@ -1,7 +1,7 @@
 <?php
 class File1
 {
-    public $surname = '';
+    public $surname = 'ыввмм';
 
     public $name = '';
 
