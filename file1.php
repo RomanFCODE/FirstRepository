@@ -1,9 +1,11 @@
 <?php
 class File1
 {
-    public $surname = 'From branch main user1';
+    private string $surname = 'From branch main user1';
 
-    public $name = 'qedefqef';
+    private string $name = 'predefined';
+
+    private int $age = 18;
 
 
     public function setSurname(string $surname): void
@@ -20,7 +22,7 @@ class File1
     {
         $this->name = $name;
     }
-    public function getName()
+    public function getName(): string
     {
         return $this->name;
     }
