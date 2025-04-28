@@ -1,7 +1,7 @@
 <?php
 class File1
 {
-    private string $surname = 'From branch main user1crtgtyyhyu';
+    private string $surname = 'line from user2';
 
     private string $name = 'predefined';
 
