@@ -1,13 +1,21 @@
 <?php
 class File1
 {
-    private string $surname = 'line from user2';
+    private string $surname = 'line from user2222222';
 
     private string $name = 'predefined';
 
     private int $age = 18;
 
+    public function getAge(): int
+    {
+        return $this->age;
+    }
 
+    public function setAge(int $age): void
+    {
+        $this->age = $age;
+    }
     public function setSurname(string $surname): void
     {
         $this->surname = $surname;
